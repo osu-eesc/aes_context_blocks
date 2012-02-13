@@ -91,6 +91,18 @@ function aes_context_blocks_context_default_contexts() {
           'region' => 'sidebar_last',
           'weight' => 1,
         ),
+        'extension_settings-6' => array(
+          'module' => 'extension_settings',
+          'delta' => 6,
+          'region' => 'sidebar_last',
+          'weight' => 2,
+        ),
+        'extension_settings-13' => array(
+          'module' => 'extension_settings',
+          'delta' => 13,
+          'region' => 'sidebar_last',
+          'weight' => 3,
+        ),
         'extension_settings-9' => array(
           'module' => 'extension_settings',
           'delta' => 9,
@@ -153,7 +165,19 @@ function aes_context_blocks_context_default_contexts() {
           'module' => 'user',
           'delta' => 1,
           'region' => 'sidebar_last',
+          'weight' => 1,
+        ),
+        'extension_settings-6' => array(
+          'module' => 'extension_settings',
+          'delta' => 6,
+          'region' => 'sidebar_last',
           'weight' => 2,
+        ),
+        'extension_settings-13' => array(
+          'module' => 'extension_settings',
+          'delta' => 13,
+          'region' => 'sidebar_last',
+          'weight' => 3,
         ),
       ),
     ),
